@@ -17,5 +17,5 @@ const memStorage = multer.memoryStorage()
 
 
 export const upload = multer({
-    dest: diskStorage //BASTA SUBSTITUIR AQUI QUAL DAS VARIÁVEIS ACIMA VAI USAR
+    dest: "./uploads/temp" //BASTA SUBSTITUIR AQUI QUAL DAS VARIÁVEIS ACIMA VAI USAR
 })

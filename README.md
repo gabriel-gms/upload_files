@@ -4,5 +4,6 @@ O projeto consiste em fazer todo o processo de um upload de arquivo para o banco
 
 As tecnologias usadas para fazer isso foram:
 -Multer
--Mongoose 
+-Mongoose
 -Express
+-sharp (Usado para manipular imagens)
